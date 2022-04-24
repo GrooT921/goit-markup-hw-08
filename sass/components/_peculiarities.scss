@@ -1,0 +1,50 @@
+/* Особенности */
+
+.peculiarities-list {
+    display: flex;
+}
+
+.peculiarities-list__item {
+    margin-right: 30px;
+
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.peculiarities-list__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    color: $basic-text-color;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.peculiarities-list__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 270px;
+    height: 75px;
+
+    color: $second-color-text;
+
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* Оформление осбенности */
+
+.peculiarities-list__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+
+    background: $color-section-team;
+}
