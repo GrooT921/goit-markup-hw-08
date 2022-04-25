@@ -1,26 +1,31 @@
 /* Footer */
 
 .footer {
+            text-align: center;
     padding: 60px 0;
     background: #2f303a;
 }
 
-.footer-flex {
-    width: auto;
-    align-items: baseline;
-    display: flex;
-}
+// .footer-flex {
+//     width: auto;
+//     align-items: baseline;
+//     display: flex;
+// }
 
-.footer-item {
-    flex-grow: 1;
-}
+// .footer-item {
+//     flex-grow: 1;
+// }
 
 .footer-list__item {
-    margin-bottom: 9px;
-
-    &:last-child {
+    margin-bottom: 8px;
+    &:last-child{
         margin-bottom: 0;
     }
+            // margin-bottom: 9px;
+
+            // &:last-child {
+            //     margin-bottom: 0;
+            // }
 }
 
 .footer-list__link {
@@ -46,9 +51,10 @@
 /* Соцсети футер */
 
 .footer-join {
-    margin-left: 70px;
-    display: flex;
-    flex-direction: column;
+    margin: 60px 0 60px;
+            // margin-left: 70px;
+            // display: flex;
+            // flex-direction: column;
 }
 
 .footer-join__text {
@@ -63,6 +69,7 @@
 }
 
 .footer-network {
+    justify-content: center;
     display: flex;
 }
 
@@ -98,10 +105,12 @@
 /* Футер форма */
 
 .form-footer {
-    margin-left: 93px;
+    display: inline-block;
 
-    width: 570px;
-    height: 86px;
+    // margin-left: 93px;
+
+    // width: 570px;
+    // height: 86px;
 }
 
 .flex-form input::placeholder {
@@ -113,8 +122,8 @@
 }
 
 .flex-form {
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
 }
 
 .sub-text {
@@ -128,13 +137,17 @@
     color: $button-color-text;
 }
 
-.item-form {
-    display: flex;
-}
+// .item-form {
+//     display: flex;
+// }
 
 .mail-sub {
-    width: 358px;
-    margin-right: 12px;
+    width: 450px;
+    margin: 20px 0 20px;
+            // width: 358px;
+
+            // margin-right: 12px;
+
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -150,6 +163,7 @@
     justify-content: center;
 
     width: 200px;
+    height: 50px;
     padding: 0;
     color: $button-color-text;
 

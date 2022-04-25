@@ -1,9 +1,12 @@
 /* Кнопки портфолио */
 
 .filter-list {
-    justify-content: center;
     display: flex;
-    margin-bottom: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+        // justify-content: center;
+        // margin-bottom: 50px;
+    
 }
 
 .filter-list__item {
@@ -12,6 +15,18 @@
     &:last-child {
         margin-right: 0;
     }
+        @media screen and (max-width: $mobile){
+
+            &:nth-child(3n+3){
+                margin-right: 0;
+            }
+
+            margin-bottom: 15px;
+
+                &:nth-child(n+4){
+                margin-bottom: 0;
+                }
+        }
 }
 
 .filter-list__button {

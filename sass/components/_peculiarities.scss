@@ -1,18 +1,27 @@
 /* Особенности */
 
-.peculiarities-list {
-    display: flex;
-}
+// .peculiarities-list {
+//     display: flex;
+// }
+
+// .peculiarities-list__item {
+//     margin-right: 30px;
+
+//     &:last-child{
+//         margin-right: 0;
+//     }
+// }
 
 .peculiarities-list__item {
-    margin-right: 30px;
+    margin-bottom: 30px;
 
     &:last-child{
-        margin-right: 0;
+        margin-bottom: 0;
     }
 }
 
 .peculiarities-list__title {
+    text-align: center;
     margin-top: 0;
     margin-bottom: 10px;
 
@@ -27,8 +36,8 @@
 .peculiarities-list__text {
     margin-top: 0;
     margin-bottom: 0;
-    width: 270px;
-    height: 75px;
+            // width: 270px;
+            // height: 75px;
 
     color: $second-color-text;
 

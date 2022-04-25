@@ -1,19 +1,30 @@
 /* Чем мы занимаемся */
 
 .section__section--no-padding-top {
+    
+    @media (max-width: 480px) {
+        display: none;
+    }
     padding-top: 0;
 }
 
 .section__title {
+    text-align: center;
     margin-top: 0;
-    margin-bottom: 50px;
+            // margin-bottom: 50px;
+    margin-bottom: 30px;
 
     color: $basic-text-color;
 
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
+    font-size: 28px;
+    line-height: 1.17;
+        
+    letter-spacing: 0.03em;
+
+            // font-weight: 700;
+            // font-size: 36px;
+            // line-height: 1.16;
 }
 
 .development-list {
