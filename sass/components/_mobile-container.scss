@@ -1,0 +1,46 @@
+.mobile-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-button{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.menu-button .menu-button__cross {
+    display: none;
+}
+
+.menu-button.is-open .menu-button__cross {
+    display: block;
+}
+
+.menu-button.is-open .menu-button__menu {
+    display: none;
+}
+
+
+.mob{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    
+    display: none;
+    &.is-open{
+        display: block;
+    }
+
+    background-color: white;
+}
+
+
+
+
+
+

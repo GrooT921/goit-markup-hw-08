@@ -2,6 +2,9 @@
 @import"./utils/variables";
 @import"./utils/breakpoints";
 @import"./components/logo";
+@import"./components/navigation";
+@import"./components/contacts";
+@import"./components/mobile-container";
 @import"./components/hero";
 @import"./components/peculiarities";
 @import"./components/development";
@@ -10,3 +13,5 @@
 @import"./components/footer";
 @import"./components/filter";
 @import"./components/projects";
+@import"./components/modal";
+@import"./components/form";

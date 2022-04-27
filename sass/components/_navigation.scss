@@ -1,0 +1,47 @@
+/* Навигация */
+
+.header {
+    border-bottom: 1px solid #ececec;
+        position: relative;
+}
+
+.container-nav {
+    // display: flex;
+    // align-items: center;
+}
+
+.nav__link--active:after{
+    bottom: -1px;
+    position: absolute;
+    width: 100%;
+    opacity: 1;
+
+    content: "";
+    display: block;
+    height: 4px;
+    background: $accent-color-text;
+    border-radius: 2px;
+}
+
+.nav {
+    color: $basic-text-color;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav__list,
+.contacts-nav {
+    // margin-left: auto;
+    // display: flex;
+}
+
+.contacts-nav .contacts-nav__item+.contacts-nav__item {
+    // margin-left: 50px;
+}
+
+.nav__list .nav__item+.nav__item {
+    // margin-left: 50px;
+}
