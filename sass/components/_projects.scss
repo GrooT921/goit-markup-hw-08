@@ -2,8 +2,11 @@
 
 .project-list {
     padding: 0;
-        // display: flex;
-        // flex-wrap: wrap;
+    @media screen and (min-width: $tablet){
+        display: flex;
+        flex-wrap: wrap;
+    }
+
       
 }
 
@@ -20,7 +23,7 @@
 
         @media screen and (min-width:$tablet){            
             margin-right: 30px;
-            &:nth-child(3n) {
+            &:nth-child(2n) {
                 margin-right: 0;
             }
 

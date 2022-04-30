@@ -2,25 +2,39 @@
 
 .header {
     border-bottom: 1px solid #ececec;
-        position: relative;
+    position: relative;
 }
 
 .container-nav {
-    // display: flex;
+    @media screen and(min-width: 768px){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    @media screen and (max-width: 767px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     // align-items: center;
+}
+.nav__link--active{
+    color: $accent-color-text;
 }
 
 .nav__link--active:after{
-    bottom: -1px;
-    position: absolute;
-    width: 100%;
-    opacity: 1;
-
-    content: "";
-    display: block;
-    height: 4px;
-    background: $accent-color-text;
-    border-radius: 2px;
+    @media screen and (min-width: 768px){
+        bottom: -1px;
+        position: absolute;
+        width: 100%;
+        opacity: 1;
+        
+        content: "";
+        display: block;
+        height: 4px;
+        background: $accent-color-text;
+        border-radius: 2px;
+    }
 }
 
 .nav {
@@ -30,6 +44,31 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.nav__item{
+    @media screen and(max-width: 767px){
+        margin-bottom: 32px;
+    }
+    @media screen and(min-width: 768px){
+        margin-left: 50px;
+        &:first-child{
+            margin-left: 0;
+        }
+    }
+}
+
+.nav__item:last-child{
+    @media screen and(max-width: 767px){
+        margin-bottom: 0;
+    } 
+}
+
+.nav__list{
+    @media screen and(min-width: 768px){
+        display: flex;
+        
+    }
 }
 
 .nav__list,

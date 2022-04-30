@@ -17,23 +17,32 @@
 
 .clients-list__item {
     margin-right: 30px;
-
     margin-bottom: 30px;
 
-        // &:last-child {
-        //     margin-right: 0;
-        // }
-
+    @media screen and (max-width: 767px){
         &:nth-child(2n) {
             margin-right: 0;
         }
-
-        &:nth-child(n+5) {
+            
+        &:nth-last-child(-n+2) {
             margin-bottom: 0;
         }
-    
+    }
 
+    @media screen and (min-width: 768px){
+        &:nth-child(3n+3){
+            margin-right: 0;
+        }
+        &:nth-last-child(-n+3){
+            margin-bottom: 0;
+        }
+
+    }
+            // &:last-child {
+            //     margin-right: 0;
+            // }       
 }
+
 
 .clients-list__link {
     justify-content: center;

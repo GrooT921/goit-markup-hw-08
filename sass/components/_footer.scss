@@ -6,15 +6,20 @@
     background: #2f303a;
 }
 
-// .footer-flex {
-//     width: auto;
-//     align-items: baseline;
-//     display: flex;
-// }
+.footer-flex {
+    @media screen and (min-width: 768px){
+        width: auto;
+        align-items: baseline;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-// .footer-item {
-//     flex-grow: 1;
-// }
+}
+
+.footer-item {
+    flex-grow: 1;
+}
 
 .footer-list__item {
     margin-bottom: 8px;
@@ -51,7 +56,11 @@
 /* Соцсети футер */
 
 .footer-join {
+    @media screen and (max-width: 767px){
     margin: 60px 0 60px;
+    }
+    flex-grow: 2;
+    
             // margin-left: 70px;
             // display: flex;
             // flex-direction: column;
@@ -122,6 +131,9 @@
 }
 
 .flex-form {
+    @media screen and (min-width: 768px){
+        margin-top: 60px;
+    }
     // display: flex;
     // flex-direction: column;
 }

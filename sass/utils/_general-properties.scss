@@ -10,8 +10,12 @@ html {
 body {
     margin: 0;
     font-family: "Roboto", sans-serif;
-    color: var(--basic-text-color);
+    color: $basic-text-color;
     letter-spacing: 0.03em;
+}
+
+body.modal-open{
+    overflow: hidden;
 }
 
 button {
@@ -41,6 +45,7 @@ p {
 
 a {
     text-decoration: none;
+    color: $basic-text-color;
 }
 
 textarea {

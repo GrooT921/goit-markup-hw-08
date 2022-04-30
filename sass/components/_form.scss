@@ -122,10 +122,13 @@
     justify-content: center;
     align-items: center;
 
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
+    // font-weight: 400;
+    // font-size: 14px;
+    // line-height: 1.7;
 
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
 
     margin-top: 20px;
@@ -134,11 +137,6 @@
 }
 
 .modal-form__contract {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-
-    letter-spacing: 0.03em;
     text-decoration-line: underline;
 
     color: $accent-color-text;
