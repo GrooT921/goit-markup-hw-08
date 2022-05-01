@@ -1,41 +1,47 @@
 /* Особенности */
 
 .peculiarities-list {
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: $tablet){
         display: flex;
         flex-wrap: wrap;
     }
 }
 
 .peculiarities-list__item {
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $tablet) {
         width: 354px;
         margin-right: 30px;
+        margin-bottom: 30px;
+
         &:nth-child(2n){
             margin-right: 0;
-        }    
-    }
-
-            // margin-right: 30px;
-            //     &:last-child {
-            //     margin-right: 0;}
-}
-
-.peculiarities-list__item {
-    margin-bottom: 30px;
-
-    &:last-child{
-        margin-bottom: 0;
-    }
-
-    @media screen and (min-width: 768px){
-        &:nth-last-child(-n+2){
+        }
+        &:nth-last-child(-n+2) {
             margin-bottom: 0;
         }
     }
+    @media screen and (min-width: 1200px){
+
+        width: 270px;
+        &:nth-child(2n) {
+            margin-right: 30px;
+        }
+        &:last-child{
+            margin-right: 0;
+        }
+        &:nth-child(-n+2) {
+            margin-bottom: 0;
+        }
+        
+    }
+
+            
 }
 
 .peculiarities-list__title {
+    @media screen and (min-width: $desktop){
+        text-align: left;
+    }
     text-align: center;
     margin-top: 0;
     margin-bottom: 10px;
@@ -51,8 +57,6 @@
 .peculiarities-list__text {
     margin-top: 0;
     margin-bottom: 0;
-            // width: 270px;
-            // height: 75px;
 
     color: $second-color-text;
 

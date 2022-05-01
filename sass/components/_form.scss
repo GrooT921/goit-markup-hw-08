@@ -3,7 +3,6 @@
 .modal-form {
     display: flex;
     flex-direction: column;
-    // padding: 40px;
 }
 
 .modal-form__head {
@@ -121,10 +120,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (min-width: $desktop){
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+    }
 
-    // font-weight: 400;
-    // font-size: 14px;
-    // line-height: 1.7;
+
 
     font-weight: 400;
     font-size: 12px;

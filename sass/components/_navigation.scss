@@ -6,7 +6,7 @@
 }
 
 .container-nav {
-    @media screen and(min-width: 768px){
+    @media screen and(min-width: $tablet){
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -23,7 +23,7 @@
 }
 
 .nav__link--active:after{
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: $tablet){
         bottom: -1px;
         position: absolute;
         width: 100%;
@@ -50,7 +50,7 @@
     @media screen and(max-width: 767px){
         margin-bottom: 32px;
     }
-    @media screen and(min-width: 768px){
+    @media screen and(min-width: $tablet){
         margin-left: 50px;
         &:first-child{
             margin-left: 0;
@@ -65,7 +65,7 @@
 }
 
 .nav__list{
-    @media screen and(min-width: 768px){
+    @media screen and(min-width: $tablet){
         display: flex;
         
     }

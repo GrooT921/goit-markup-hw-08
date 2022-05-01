@@ -11,7 +11,7 @@
 .section__title {
     text-align: center;
     margin-top: 0;
-            // margin-bottom: 50px;
+            
     margin-bottom: 30px;
 
     color: $basic-text-color;
@@ -22,9 +22,14 @@
         
     letter-spacing: 0.03em;
 
-            // font-weight: 700;
-            // font-size: 36px;
-            // line-height: 1.16;
+    @media screen and (min-width: $desktop){
+        margin-bottom: 50px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+    }
+
+
 }
 
 .development-list {
