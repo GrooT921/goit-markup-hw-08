@@ -19,7 +19,7 @@
     &:last-child {
         margin-right: 0;
     }
-        @media screen and (max-width: $mobile){
+        @media screen and (max-width: 767px){
 
             &:nth-child(3n+3){
                 margin-right: 0;
