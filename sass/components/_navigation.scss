@@ -16,7 +16,6 @@
         align-items: center;
         justify-content: space-between;
     }
-    // align-items: center;
 }
 .nav__link--active{
     color: $accent-color-text;
@@ -66,21 +65,9 @@
 
 .nav__list{
     @media screen and(min-width: $tablet){
-        display: flex;
-        
+        display: flex; 
     }
-}
-
-.nav__list,
-.contacts-nav {
-    // margin-left: auto;
-    // display: flex;
-}
-
-.contacts-nav .contacts-nav__item+.contacts-nav__item {
-    // margin-left: 50px;
-}
-
-.nav__list .nav__item+.nav__item {
-    // margin-left: 50px;
+    @media screen and (min-width: $desktop){
+        margin-right: 305px;
+    }
 }
