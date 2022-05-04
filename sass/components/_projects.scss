@@ -18,10 +18,6 @@
     background-color: $button-color-text;
     box-sizing: border-box;
 
-    &:last-child{
-        margin-bottom: 0;
-    }
-
     @media screen and (min-width:$tablet){
         width: 50%;
         margin: 15px;
