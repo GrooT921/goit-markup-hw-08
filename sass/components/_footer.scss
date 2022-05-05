@@ -127,8 +127,12 @@
 
 .form-footer {
     display: inline-block;
+    @media screen and (min-width: $tablet){
+        margin-top: 60px;
+    }
 
     @media screen and (min-width: $desktop){
+        margin-top: 0;
         margin-left: 93px;  
     }
 
@@ -148,12 +152,12 @@
 
 .flex-form {
 
-    @media screen and (min-width: $tablet){
-        // margin-top: 60px;
-    }
-    @media screen and (min-width: $desktop){
-        margin-top: 0;
-    }
+    // @media screen and (min-width: $tablet){
+    //     padding-top: 60px;
+    // }
+    // @media screen and (min-width: $desktop){
+    //     padding-top: 0;
+    // }
 
 }
 

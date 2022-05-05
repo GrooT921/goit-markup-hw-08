@@ -63,6 +63,12 @@
         font-size: 26px;
         line-height: 1.61;
     }
+    @media screen and (min-width: 450px){
+        width: 360px;
+    }
+    @media screen and (min-width: $desktop){
+        width: 696px;
+    }
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
