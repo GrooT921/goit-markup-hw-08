@@ -170,21 +170,43 @@
 
                     <li class="development-list__item">
                         <div class="development-list__box">
-                            <img src="img/unknown.png" alt="Разработчик пишет код"width="370"/>
+                            <picture>
+                                <source
+                                    srcset="
+                                    ./img/dev1-1x.jpg 1x, 
+                                    ./img/dev1-2x.jpg 2x
+                                    "
+                                >
+                                <img src="img/unknown.png" alt="Разработчик пишет код" width="370" />
+                            </picture>
                             <h3 class="development-list__text">Десктопные приложения</h3>
                         </div>
                     </li>
 
                     <li class="development-list__item">
                         <div class="development-list__box">
-                            <img src="img/unknown(1).png" alt="Разработчик выбирает дизайн"width="370"/>
+                            <picture>
+                                <source srcset="
+                                    ./img/dev2-1x.jpg 1x, 
+                                    ./img/dev2-2x.jpg 2x
+                                    "
+                                >
+                                <img src="img/unknown(1).png" alt="Разработчик выбирает дизайн" width="370" />
+                            </picture>
                             <h3 class="development-list__text">Мобильные приложения</h3>
                         </div>
                     </li>
 
                     <li class="development-list__item">
                         <div class="development-list__box">
-                            <img src="img/unknown(2).png" alt="Разработчик выбирает цветовую палитру"width="370"/>
+                            <picture>
+                                <source srcset="
+                                    ./img/dev3-1x.jpg 1x, 
+                                    ./img/dev3-2x.jpg 2x
+                                    "
+                                >
+                                <img src="img/unknown(2).png" alt="Разработчик выбирает цветовую палитру" width="370" />
+                            </picture>
                             <h3 class="development-list__text">Дизайнерские решения</h3>
                         </div>
                     </li>
@@ -206,12 +228,27 @@
                     <ul class="team-list">
 
                         <li class="team-list__item">
-                            <img srcset="img/imgigor1x.jpg 1x,
-                                        img/imgigor2x.jpg 2x,
-                                        img/imgigor354-1x.jpg 1x,
-                                        img/imgigor354-2x.jpg 2x
-                                        " 
-                                 src="img/igor.png" alt="Игорь Демьяненко"/>
+                            <picture>
+                                <source srcset="
+                                    ./img/mobigor-1x.jpg 1x,
+                                    ./img/mobigor-2x.jpg 2x
+                                    "
+                                    media="(max-width: 767px)"
+                                >
+                                <source srcset="
+                                    ./img/igorpc-1x.jpg 1x,
+                                    ./img/igorpc-2x.jpg 2x
+                                    " 
+                                    media="(min-width: 1200px)"
+                                >
+                                <source srcset="
+                                    ./img/tabigor-1x.jpg 1x,
+                                    ./img/tabigor-2x.jpg 2x
+                                    "
+                                >
+
+                                <img src="img/igor.png" alt="Игорь Демьяненко" />
+                            </picture>
                             <div class="team-list__container">
                                 <h3 class="team-list__title">Игорь Демьяненко</h3>
                                 <p class="team-list__text">Product Designe </p>
@@ -251,12 +288,26 @@
                         </li>
 
                         <li class="team-list__item">
-                            <img srcset="img/imgolga1x.jpg 1x,
-                                        img/imgolga2x.jpg 2x,
-                                        img/imgolga354-1x.jpg 1x,
-                                        img/imgolga354-2x.jpg 2x
-                                        "
-                             src="img/olga.png" alt="Ольга Репина"/>
+                            <picture>
+                                <source srcset="
+                                    ./img/mobolga-1x.jpg 1x,
+                                    ./img/mobolga-2x.jpg 2x
+                                    " media="(max-width: 767px)"
+                                >
+                                <source srcset="
+                                    ./img/olgapc-1x.jpg 1x,
+                                    ./img/olgapc-2x.jpg 2x
+                                    " media="(min-width: 1200px)"
+                                >
+                                <source srcset="
+                                    ./img/tabolga-1x.jpg 1x,
+                                    ./img/tabolga-2x.jpg 2x
+                                    "
+                                >
+                            
+                                <img src="img/olga.png" alt="Ольга Репина" />
+                            </picture>
+                            
                             <div class="team-list__container">
                                 <h3 class="team-list__title">Ольга Репина</h3>
                                 <p class="team-list__text">Frontend Develope</p>
@@ -296,13 +347,26 @@
                         </li>
 
                         <li class="team-list__item">
-                            <img
-                            srcset="img/imgnikola1x.jpg 1x,
-                                        img/imgnikola2x.jpg 2x,
-                                        img/imgnikola354-1x.jpg 1x,
-                                        img/imgnikola354-2x.jpg 2x
-                                        "
-                             src="img/nikola.png" alt="Николай Тарасов"/>
+                            <picture>
+                                <source srcset="
+                                    ./img/mobnikola-1x.jpg 1x,
+                                    ./img/mobnikola-2x.jpg 2x
+                                    " media="(max-width: 767px)"
+                                >
+                                <source srcset="
+                                    ./img/nikolapc-1x.jpg 1x,
+                                    ./img/nikolapc-2x.jpg 2x
+                                    " media="(min-width: 1200px)"
+                                >
+                                <source srcset="
+                                    ./img/tabnikola-1x.jpg 1x,
+                                    ./img/tabnikola-2x.jpg 2x
+                                    "
+                                >
+                            
+                                <img src="img/nikola.png" alt="Николай Тарасов" />
+                            </picture>
+                            
                             <div class="team-list__container">
                                 <h3 class="team-list__title">Николай Тарасов</h3>
                                 <p class="team-list__text">Marketing</p>
@@ -342,13 +406,26 @@
                         </li>
                         
                         <li class="team-list__item">
-                            <img
-                            srcset="img/imgmiha1x.jpg 1x,
-                                        img/imgmiha2x.jpg 2x,
-                                        img/imgmiha354-1x.jpg 1x,
-                                        img/imgmiha354-2x.jpg 2x
-                                        "
-                             src="img/miha.png" alt="Михаил Ермаков"/>
+                            <picture>
+                                <source srcset="
+                                    ./img/mobmiha-1x.jpg 1x,
+                                    ./img/mobmiha-2x.jpg 2x
+                                    " media="(max-width: 767px)"
+                                >
+                                <source srcset="
+                                    ./img/mihapc-1x.jpg 1x,
+                                    ./img/mihapc-2x.jpg 2x
+                                    " media="(min-width: 1200px)"
+                                >
+                                <source srcset="
+                                    ./img/tabmiha-1x.jpg 1x,
+                                    ./img/tabmiha-2x.jpg 2x
+                                    "
+                                >
+                            
+                                <img src="img/miha.png" alt="Михаил Ермаков" />
+                            </picture>
+                            
                             <div class="team-list__container">
                                 <h3 class="team-list__title">Михаил Ермаков</h3>
                                 <p class="team-list__text">UI Designe</p>
