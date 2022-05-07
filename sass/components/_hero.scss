@@ -28,7 +28,7 @@
     .hero {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)), 
-            url('/img/mobherobg-2x.jpg');
+            url('../img/mobherobg-2x.jpg');
     }
 }
 
@@ -36,7 +36,7 @@
     .hero {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-            url('/img/bgtab-1x.jpg');
+            url('../img/bgtab-1x.jpg');
     }
 
     @media screen and (min-device-pixel-ratio: 2),
@@ -45,7 +45,7 @@
         .hero {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)), 
-                url('/img/bgtab-2x.jpg');
+                url('../img/bgtab-2x.jpg');
         }
     }
 }
@@ -54,7 +54,7 @@
     .hero {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)), 
-            url('/img/bgpc-1x.jpg');
+            url('../img/bgpc-1x.jpg');
     }
 
     @media screen and (min-device-pixel-ratio: 2),
@@ -63,7 +63,7 @@
         .hero {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)), 
-                url('/img/bgpc-2x.jpg');
+                url('../img/bgpc-2x.jpg');
         }
     }
 }
