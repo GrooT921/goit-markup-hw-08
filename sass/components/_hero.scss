@@ -22,7 +22,7 @@
 }
 
 
-@media (min-device-pixel-ratio: 2),
+@media screen and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .hero {
@@ -39,7 +39,7 @@
             url('/img/bgtab-1x.jpg');
     }
 
-    @media (min-device-pixel-ratio: 2),
+    @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero {
@@ -57,7 +57,7 @@
             url('/img/bgpc-1x.jpg');
     }
 
-    @media (min-device-pixel-ratio: 2),
+    @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero {
