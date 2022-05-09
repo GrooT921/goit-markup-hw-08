@@ -464,13 +464,6 @@ textarea {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .mobile-nav__list {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .mobile-nav__list {
     display: none;
