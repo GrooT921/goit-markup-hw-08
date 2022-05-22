@@ -34,7 +34,6 @@
 
 
 .mobile-nav{
-    z-index: 1;
     display: flex;
     @media screen and(min-width: $tablet){
         justify-content: space-between;
@@ -52,6 +51,7 @@
         display: none;
         
         &.is-open {
+            z-index: 1;
             height: 796px;
             display: flex;
             flex-direction: column;
