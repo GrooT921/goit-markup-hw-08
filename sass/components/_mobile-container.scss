@@ -51,6 +51,7 @@
         display: none;
         
         &.is-open {
+            z-index: 999;
             height: 796px;
             display: flex;
             flex-direction: column;
